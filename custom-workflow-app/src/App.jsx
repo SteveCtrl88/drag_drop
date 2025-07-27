@@ -1,5 +1,6 @@
 import React, { useCallback, useState, useRef } from 'react';
-import ReactFlow, {
+import {
+  ReactFlow,
   ReactFlowProvider,
   addEdge,
   useNodesState,
