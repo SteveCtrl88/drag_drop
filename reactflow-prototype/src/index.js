@@ -3,6 +3,8 @@ import { createRoot } from 'react-dom/client';
 import App from './App.jsx';
 import './styles.css';
 
+import '@xyflow/react/dist/style.css';
+import '@xyflow/react/dist/theme-default.css';
 // Entry point for the React Flow prototype.  We mount our App component
 // into the root div defined in index.html.  React 18's createRoot API is
 // used to enable concurrent rendering.
